@@ -1,18 +1,20 @@
 import React from "react";
-import {BrowserRouter, Routes, Route} from 'react-router-dom'
-import Home from "./components/home/Home"
+import { Link } from "react-router-dom";
+import MainRoutes from "./routes/MainRoutes";
 
-export default function App(){
+
+export default function App() {
     return(
         <div>
             <h1>ROTAS</h1>
-            {/*Estrutura das rotas*/}
-            <BrowserRouter>
-                <Routes>
-                    <Route path="" element={<Home />} />
-                    
-                </Routes>
-            </BrowserRouter>
+            <ul>
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="/pag1">Página 1</Link></li>
+                <li><Link to="/pag2">Página 2</Link></li>
+            </ul>
+            {/* Estrutura das rotas */}
+                <MainRoutes />
+            {/* Estrutura das rotas */}
         </div>
     )
 }

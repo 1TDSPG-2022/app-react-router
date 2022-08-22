@@ -1,0 +1,11 @@
+import React from 'react';
+
+
+
+export default function Pagina2() {
+  return (
+  <div>
+    <h1>Pagina2</h1>
+  </div>
+  )
+}
