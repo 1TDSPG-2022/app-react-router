@@ -10,6 +10,7 @@ export default function App(){
                 <li><Link to="/">HOME</Link></li>
                 <li><Link to="pag1">Página 01</Link></li>
                 <li><Link to="pag2">Página02</Link></li>
+                <li><Link to="/nv">Novo Valor</Link></li>
             </ul>
             {/* Estrutura das rotas */}
                 <MainRoutes />
