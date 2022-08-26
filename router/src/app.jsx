@@ -11,6 +11,7 @@ export default function App(){
                 <li><Link to="/">home</Link></li>
                 <li><Link to="/pag1">pag1</Link></li>
                 <li><Link to="/pag2">pag2</Link></li>
+                <li><Link to="/NovoValor">NovoValor</Link></li>
             </ul>
             <MainRoutes />
         </div>
