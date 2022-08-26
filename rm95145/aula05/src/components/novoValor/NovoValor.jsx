@@ -4,8 +4,8 @@ import { useState } from 'react'
 export default function NovoValor() {
     
     const [frase,setFrase] = useState('')
-    const vetor1 = ["maça", "banana", "laranja"]
 
+    //const vetor1 = ["maça", "banana", "laranja"]
     //Acessando tradicionalmente
     //console.log(vetor1[1])
 
