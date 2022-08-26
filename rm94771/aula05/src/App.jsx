@@ -16,6 +16,9 @@ export default function App() {
         <li>
           <Link to="/pag2">Página 2</Link>
         </li>
+        <li>
+          <Link to="/nv">Novo Valor</Link>
+        </li>
       </ul>
       {/* Estrutra das Rotas */}
       <MainRoutes />
