@@ -8,8 +8,10 @@ export default function App(){
             <h1>NOTAS</h1>
             <ul>
                 <li><Link to="/">Home</Link></li>
-                <li><Link to="/pag1">Pagina1 - 1</Link></li>
-                <li><Link to="/pag2">Pagina1 - 2</Link></li>
+                <li><Link to="/pag1">Pagina - 1</Link></li>
+                <li><Link to="/pag2">Pagina - 2</Link></li>
+                <li><Link to="/nv">NovoValor - 2</Link></li>
+
             </ul>
             {/* Estrutura das rotas */}
                 <MainRoutes/>
@@ -17,8 +19,10 @@ export default function App(){
         </div>
     )
 }
-{/* inicia p bloco das rotas */} 
-{/* gerencia as rotas */}
-{/* Route, cria a rota */}
-{/* path, atributo que associa o path ao componente */}
-{/* Home, componente que sera carregado quando a rota for carregada */}
+/* inicia p bloco das rotas */
+/* gerencia as rotas */
+/* Route, cria a rota */
+/* path, atributo que associa o path ao componente */
+/* Home, componente que sera carregado quando a rota for carregada */
+/* USESTATE = altera o conteudo das variaveis em tempo real */
+/* recursividade = cria uma funcao, e da maneira que ela é escrita ela mesmo se chama*/
